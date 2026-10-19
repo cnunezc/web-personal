@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>César Núñez Cuevas</title>
+    <meta
+      name="description"
+      content="Senior Capital Management Analyst, Data Analyst y Financial Analyst. Finanzas, riesgo regulatorio y analítica."
+    />
+    <meta name="author" content="César Núñez Cuevas" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#fafaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1f2124" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="César Núñez Cuevas" />
+    <meta
+      property="og:description"
+      content="Senior Capital Management Analyst, Data Analyst y Financial Analyst. Finanzas, riesgo regulatorio y analítica."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CL" />
+    <link id="icon-light" rel="icon" href="/favicon.png" type="image/png" media="(prefers-color-scheme: light)" />
+    <link id="icon-dark" rel="icon" href="/favicon-dark.png" type="image/png" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (t !== "light" && t !== "dark") return;
+          document.documentElement.dataset.theme = t;
+          var light = document.getElementById("icon-light");
+          var dark = document.getElementById("icon-dark");
+          if (!light || !dark) return;
+          if (t === "dark") {
+            light.media = "not all";
+            dark.media = "all";
+          } else {
+            dark.media = "not all";
+            light.media = "all";
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="bar">
+        <div class="logos">
+          <img class="logo logo-light" src="/logo.png" width="400" height="138" alt="" />
+          <img class="logo logo-dark" src="/logo-dark.png" width="400" height="138" alt="" />
+        </div>
+        <button id="theme" type="button" aria-label="Cambiar tema">
+          <span class="to-dark">Oscuro</span>
+          <span class="to-light">Claro</span>
+        </button>
+      </header>
+      <main>
+        <section id="presentacion" aria-labelledby="nombre">
+          <h1 id="nombre">César Núñez Cuevas</h1>
+          <p class="role">
+            Senior Capital Management Analyst · Data Analyst · Financial Analyst · Ex-McKinsey.
+          </p>
+          <p>
+            Profesional de Finanzas con mentalidad de Data Scientist (MSc Finance &amp; Big Data). Experiencia en
+            McKinsey &amp; Company y Banco Bci, cerrando la brecha entre regulación financiera compleja (Basilea III,
+            IFRS 9) y analítica avanzada. Especialista en modelamiento de riesgos, optimización de capital y
+            automatización con Python, R y SQL.
+          </p>
+        </section>
+
+        <section id="experiencia" aria-labelledby="exp">
+          <h2 id="exp">Experiencia</h2>
+          <article>
+            <h3>Analista Senior de Gestión de Capital</h3>
+            <p class="meta">Banco Bci, Santiago · Ene 2024–Presente</p>
+            <p>
+              Liderazgo en Basilea III: estimación de riesgos de Pilar II para la implementación normativa en Chile,
+              asegurando suficiencia de capital.
+            </p>
+            <p>
+              Modelamiento interno (IRB): desarrollo y diagnóstico de modelos internos de RWA de crédito, optimizando
+              el consumo de capital regulatorio.
+            </p>
+          </article>
+          <article>
+            <h3>Risk Jr. Associate</h3>
+            <p class="meta">McKinsey &amp; Company, Santiago · Oct 2022–Oct 2023</p>
+            <p>
+              Asesoría a instituciones financieras líderes de Latinoamérica en riesgo de crédito y capital regulatorio;
+              diseño e implementación de estrategias para optimizar estructura de capital y mitigar exposiciones
+              críticas.
+            </p>
+          </article>
+          <article>
+            <h3>Profesor universitario (part-time)</h3>
+            <p class="meta">Universidad Santo Tomás / Universidad de Chile · Ene 2019–Ago 2022</p>
+            <p>
+              Análisis de Datos, Estadística I, Métodos Cuantitativos; bases de datos y visualización con Excel, Power
+              BI y R Studio.
+            </p>
+          </article>
+          <article>
+            <h3>Analista de Riesgo de Mercado</h3>
+            <p class="meta">Bci Corredores de Bolsa · Ago 2019–Sep 2021</p>
+            <p>
+              Reportería automática en Power BI; valorización de derivados (CCS, IRS, forwards) y curvas Zero Rate
+              (CLP, USD, CLF); Duration, Convexidad y DV01 para renta fija.
+            </p>
+          </article>
+          <article>
+            <h3>Analista de Riesgo Financiero</h3>
+            <p class="meta">Tanner Servicios Financieros · Abr 2018–Jun 2019</p>
+            <p>
+              Modelos de volatilidad (GARCH, EWMA) y Monte Carlo (Black-Scholes-Merton) para proyección de tipo de
+              cambio; IFRS 9 (deterioro y probabilidad de default); margin calls y coberturas.
+            </p>
+          </article>
+        </section>
+
+        <section id="educacion" aria-labelledby="edu">
+          <h2 id="edu">Educación</h2>
+          <article>
+            <h3>International Master in Business Analytics and Big Data</h3>
+            <p class="meta">Politecnico di Milano (Italia) · 2021–2022</p>
+            <p>Aprobado con Distinción. Tesis: What Makes a Movie Successful?</p>
+          </article>
+          <article>
+            <h3>MSc. Finance</h3>
+            <p class="meta">Universidad de Chile FEN · 2017–2018</p>
+            <p>Aprobado con Distinción.</p>
+          </article>
+          <article>
+            <h3>Ingeniería Comercial</h3>
+            <p class="meta">Universidad de Chile · 2012–2017</p>
+          </article>
+        </section>
+
+        <section id="investigacion" aria-labelledby="inv">
+          <h2 id="inv">Investigación</h2>
+          <article>
+            <h3>SECHI 2018</h3>
+            <p>'Afabilidad como Sesgo de Selección de Numeracy en el Apalancamiento'</p>
+            <p class="meta">Presentado en la Conferencia Anual de la Sociedad de Economistas de Chile.</p>
+          </article>
+        </section>
+
+        <section id="habilidades" aria-labelledby="hab">
+          <h2 id="hab">Habilidades</h2>
+          <ul>
+            <li>Python (Pandas, NumPy), R, SQL, VBA</li>
+            <li>Power BI, Tableau</li>
+            <li>Basilea III, IFRS 9, VaR, Monte Carlo, Black-Scholes, Bloomberg</li>
+            <li>Español nativo, Inglés avanzado (IELTS 6.5), Italiano básico</li>
+          </ul>
+        </section>
+
+        <section id="contacto" aria-labelledby="con">
+          <h2 id="con">Contacto</h2>
+          <p><a class="mail" href="mailto:cnunezc@fen.uchile.cl">cnunezc@fen.uchile.cl</a></p>
+          <p><a class="in" href="https://linkedin.com/in/cnunezc01">linkedin.com/in/cnunezc01</a></p>
+        </section>
+      </main>
+    </div>
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById("theme");
+        var light = document.getElementById("icon-light");
+        var dark = document.getElementById("icon-dark");
+        function explicit() {
+          var t = document.documentElement.dataset.theme;
+          return t === "light" || t === "dark" ? t : "";
+        }
+        function current() {
+          return explicit() || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        }
+        function icons(theme) {
+          if (theme === "dark") {
+            light.media = "not all";
+            dark.media = "all";
+          } else {
+            dark.media = "not all";
+            light.media = "all";
+          }
+        }
+        function mark() {
+          btn.setAttribute("aria-pressed", current() === "dark" ? "true" : "false");
+        }
+        mark();
+        btn.addEventListener("click", function () {
+          var next = current() === "dark" ? "light" : "dark";
+          document.documentElement.dataset.theme = next;
+          try {
+            localStorage.setItem("theme", next);
+          } catch (e) {}
+          icons(next);
+          mark();
+        });
+        matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+          if (!explicit()) mark();
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+<style>
+  :root {
+    --bg: #fafaf7;
+    --text: #1a1a1a;
+    --muted: #666;
+    --line: #ddd;
+    --accent: #3f8f63;
+    --title: #c0392b;
+    color-scheme: light;
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #1f2124;
+    --text: #ececec;
+    --muted: #9aa0a6;
+    --line: #33363a;
+    --accent: #6fcf97;
+    --title: #ef6f62;
+    color-scheme: dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      --bg: #1f2124;
+      --text: #ececec;
+      --muted: #9aa0a6;
+      --line: #33363a;
+      --accent: #6fcf97;
+      --title: #ef6f62;
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html { background: var(--bg); }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .wrap {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1.25rem 1.25rem 3.5rem;
+  }
+
+  .bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .logo { display: block; height: 3.5rem; width: auto; }
+  .logo-dark { display: none; }
+
+  :root[data-theme="dark"] .logo-light { display: none; }
+  :root[data-theme="dark"] .logo-dark { display: block; }
+
+  .to-light { display: none; }
+
+  :root[data-theme="dark"] .to-dark { display: none; }
+  :root[data-theme="dark"] .to-light { display: inline; }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) .logo-light { display: none; }
+    :root:not([data-theme]) .logo-dark { display: block; }
+    :root:not([data-theme]) .to-dark { display: none; }
+    :root:not([data-theme]) .to-light { display: inline; }
+  }
+
+  #theme {
+    appearance: none;
+    flex: 0 0 auto;
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.4rem 0.85rem;
+    font: inherit;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+
+  #theme:hover { border-color: var(--muted); }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  h1, h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(1.85rem, 4vw, 2.4rem);
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    margin: 0 0 1rem;
+    color: var(--title);
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.35;
+  }
+
+  p { margin: 0.4rem 0 0; text-wrap: pretty; }
+
+  .role {
+    margin: 0.55rem 0 0.85rem;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  section {
+    margin-top: 1.6rem;
+    padding-top: 1.35rem;
+    border-top: 1px solid var(--line);
+  }
+
+  #presentacion {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  article + article { margin-top: 1.2rem; }
+
+  .meta {
+    margin-top: 0.15rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  ul { margin: 0; padding-left: 1.15rem; }
+  li + li { margin-top: 0.3rem; }
+
+  a { text-underline-offset: 0.15em; }
+  a:hover { text-decoration-thickness: 2px; }
+
+  .mail, .in {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .mail { color: var(--accent); }
+  .in { color: var(--title); }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 1rem 1rem 2.75rem; }
+    .logo { height: 2.75rem; }
+    .bar { margin-bottom: 1.35rem; }
+  }
+</style>
