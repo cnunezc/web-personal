@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://web-personal-lgg3.vercel.app",
+  site: "https://cesar-nunez.vercel.app",
   build: {
     inlineStylesheets: "always",
   },
