@@ -1,6 +1,6 @@
 # César Núñez Cuevas
 
-Sitio: [cesar-nunez.vercel.app](https://cesar-nunez.vercel.app/)
+Sitio: [cesar-nunez-web-personal.vercel.app](https://cesar-nunez-web-personal.vercel.app/)
 
 Sitio personal estático de una página, hecho con Astro.
 
