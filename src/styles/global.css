@@ -220,6 +220,7 @@ p { margin: 0.4rem 0 0; text-wrap: pretty; }
   padding: 0.7rem 1.1rem;
   border-radius: 999px;
   border: 1px solid var(--text);
+  text-align: center;
 }
 
 .cta:hover {
