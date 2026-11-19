@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AgendaLink from "../components/AgendaLink.astro";
+
+const description = "Cuéntame qué necesitas: un proyecto, un curso o una conversación.";
+---
+
+<Layout title="Contacto · César Núñez Cuevas" description={description}>
+  <section id="presentacion" aria-labelledby="contacto">
+    <h1 id="contacto">Conversemos.</h1>
+    <p>{description}</p>
+    <p class="actions"><AgendaLink /></p>
+    <p><a href="mailto:cnunezc@fen.uchile.cl">cnunezc@fen.uchile.cl</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/cnunezc01" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </section>
+</Layout>
