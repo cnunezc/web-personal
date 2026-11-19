@@ -29,16 +29,7 @@ const description =
   <section id="linkedin" aria-labelledby="li">
     <h2 id="li">Lo último en LinkedIn</h2>
     {
-      posts.length === 0 ? (
-        <p>
-          <a
-            href="https://www.linkedin.com/in/cnunezc01/recent-activity/all/"
-            target="_blank"
-            rel="noopener"
-            >Ver mis publicaciones en LinkedIn</a
-          >
-        </p>
-      ) : (
+      posts.length > 0 && (
         <div class="posts">
           {posts.map((urn, index) => (
             <iframe
@@ -54,6 +45,14 @@ const description =
         </div>
       )
     }
+    <p class="follow">
+      <a
+        href="https://www.linkedin.com/in/cnunezc01/recent-activity/all/"
+        target="_blank"
+        rel="noopener"
+        >Ver mis publicaciones en LinkedIn</a
+      >
+    </p>
   </section>
 
   <p class="actions repeat"><AgendaLink /></p>

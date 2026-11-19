@@ -263,6 +263,8 @@ article + article { margin-top: 1.2rem; }
   gap: 1rem;
 }
 
+.posts + .follow { margin-top: 0.85rem; }
+
 .posts iframe {
   display: block;
   width: 100%;

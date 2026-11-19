@@ -27,4 +27,4 @@ export const linkedinPosts: string[] = [
 ];
 ```
 
-Si el arreglo está vacío, esa sección muestra solo el enlace «Ver mis publicaciones en LinkedIn».
+Debajo de las publicaciones queda el enlace «Ver mis publicaciones en LinkedIn». Si el arreglo está vacío, ese enlace es lo único que se muestra en la sección.
